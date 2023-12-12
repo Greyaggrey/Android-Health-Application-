@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"MonitorAPP"</string>
+    <string name="create_table_users_username_text_email_text_password_text">create table users(username text,email text, password text)</string>
+    <string name="create_table_cart_username_text_product_text_price_float_otype_text">create table cart(username text,product text,price float,otype text)</string>
+    <string name="create_table_orderplace_username_text_fullname_text_address_float_contact_text_pincode_int_date_text_amount_float_otype_text">create table orderplace(username text,fullname text,address float,contact text,pincode int,date text,amount float,otype text)</string>
+    <string name="select_from_users_where_username_and_password">select * from users where username = ? and password = ?</string>
+</resources>
